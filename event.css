@@ -1,0 +1,65 @@
+input{
+    width:50px ;
+    background-color: rgb(253, 149, 255);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+form{
+ /* background-image: url("https://i.pinimg.com/236x/08/f1/7f/08f17f1e6101d1e2c324ec3aa056a4a9.jpg");
+background-repeat: no-repeat;
+background-size: cover; */
+}
+
+
+body {
+
+    background-image: url("https://i.pinimg.com/236x/cb/6b/86/cb6b86be08803d1eb9807718f3993461.jpg");
+        background-repeat: no-repeat;
+        background-size:1240px 1000px;
+    
+    /* background-image:url("https://i.pinimg.com/564x/d2/36/81/d236810a77f9d2ac9c9e9109ecd93df2.jpg");
+    background-color: #bdd9ef;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+
+#main {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    flex-direction: column;
+    gap: 6%;
+}
+
+
+
+#main>table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 50px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(255, 9, 210);
+}
+
+
+
+#form-section form input,
+select {
+    width: 50%;
+    margin-top: 4%;
+}
+
